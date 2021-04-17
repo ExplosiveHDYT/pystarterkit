@@ -4,7 +4,7 @@
 # Python:https://www.python.org/
 # Curl:https://curl.se/download.html
 # Git: https://git-scm.com/downloads
-
+# once visual studio is installed I recomend installing Python and any c++ package 
 
 #imports necessary packages
 import os
@@ -22,6 +22,7 @@ os.system("pip install SimpleCV")#To do computer vision easily (when its eventua
 os.system("pip install OpenCV") #To do computer vision
 os.system("curl https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_32bit.zip") #installs arduino command line interface
 os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install standard arduino IDE
+os.system("curl https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16") #installs visual studio
 arduino = ZipFile('arduino-cli_latest_Windows_32bit.zip') #creates extraction variable for arduino CLI
 arduino.extractall() #extracts arduino cli
 os.system("arduino-cli.exe") #runs arduino CLI
