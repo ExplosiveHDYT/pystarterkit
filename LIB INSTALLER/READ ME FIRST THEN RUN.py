@@ -21,8 +21,8 @@ os.system("pip install 2to3") #To convert outdated python code to recent
 os.system("pip install SimpleCV")#To do computer vision easily (when its eventually updated)
 os.system("pip install OpenCV") #To do computer vision
 os.system("curl https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_32bit.zip") #installs arduino command line interface
-os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe")
-arduino = ZipFile('arduino-cli_latest_Windows_32bit.zip')
-arduino.extractall()
-os.system("arduino-cli.exe")
-os.system("arduino-1.8.13-windows.exe")
+os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install standard arduino IDE
+arduino = ZipFile('arduino-cli_latest_Windows_32bit.zip') #creates extraction variable for arduino CLI
+arduino.extractall() #extracts arduino cli
+os.system("arduino-cli.exe") #runs arduino CLI
+os.system("arduino-1.8.13-windows.exe") #runs arduino IDE
