@@ -20,6 +20,8 @@ os.system("pip install pyfirmata") #for arduino projects
 os.system("pip install 2to3") #To convert outdated python code to recent
 os.system("pip install easycv") #To do computer vision easily 
 os.system("pip install OpenCV") #To do computer vision
+os.system("pip install flask") #for easy web development
+os.system("pip install gunicorn") #for easy web deployment
 os.system("curl https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_32bit.zip") #installs arduino command line interface
 os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install standard arduino IDE
 os.system("curl https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16") #installs visual studio
