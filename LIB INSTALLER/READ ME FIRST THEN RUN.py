@@ -27,5 +27,3 @@ os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install st
 os.system("curl https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16") #installs visual studio
 arduino = ZipFile('arduino-cli_latest_Windows_32bit.zip') #creates extraction variable for arduino CLI
 arduino.extractall() #extracts arduino CLI
-os.system("arduino-cli.exe") #runs arduino CLI
-os.system("arduino-1.8.13-windows.exe") #runs arduino IDE
