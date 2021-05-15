@@ -25,5 +25,7 @@ os.system("pip install gunicorn") #for easy web deployment
 os.system("curl https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_32bit.zip") #installs arduino command line interface
 os.system("https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install standard arduino IDE
 os.system("curl https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16") #installs visual studio
+os.system("curl -k -O -L https://npmjs.org/install.sh") #Installs npm
+os.system("npm install --global coffeescript") #Installs coffeescript
 arduino = ZipFile('arduino-cli_latest_Windows_32bit.zip') #creates extraction variable for arduino CLI
 arduino.extractall() #extracts arduino CLI
