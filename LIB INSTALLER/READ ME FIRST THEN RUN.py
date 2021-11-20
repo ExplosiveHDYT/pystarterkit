@@ -26,7 +26,8 @@ os.system("pip install gunicorn") #for easy web deployment
 os.system("curl https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_32bit.zip") #installs arduino command line interface
 os.system("curl https://downloads.arduino.cc/arduino-1.8.13-windows.exe") #install standard arduino IDE
 os.system("curl https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-win64.exe&mirror_id=1281") #installs eclipse
-os.system("curl https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16") #installs visual studio
+os.system("curl https://atom.io/download/windows_x64") #installs atom
+os.system("curl sudo snap install atom --classic") #installs atom
 os.system("curl -k -O -L https://npmjs.org/install.sh") #Installs npm
 os.system("npm install --global coffeescript") #Installs coffeescript
 os.system("curl https://www.autohotkey.com/download/ahk-install.exe") #Installs AutoHotKey
